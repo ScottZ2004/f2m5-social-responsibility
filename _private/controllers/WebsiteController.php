@@ -19,5 +19,8 @@ class WebsiteController {
 
 	}
 
+	public function admin() {
+		echo "admin";
+	}
 }
 
