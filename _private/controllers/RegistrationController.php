@@ -1,6 +1,6 @@
 <?php
 
-namespace Website\Controllers;
+namespace Registratie\Controllers;
 
 /**
  * Class RegistrationController
@@ -12,8 +12,9 @@ class RegistrationController {
 
 	public function registrationForm() {
 
-		$template_engine = get_template_engine();
-		echo $template_engine->render('register_form');
+		echo "Form ";
+		//$template_engine = get_template_engine();
+		//echo $template_engine->render('register_form');
 
 	}
 
